@@ -57,7 +57,7 @@ CREATE TABLE friends (
 
 ### 5. `DELETE FROM` — assigned to Lajoie
 
-**Description:**
+**Description:** 
 
 **Example:**
 
@@ -77,12 +77,17 @@ CREATE TABLE friends (
 
 ### 7. `ORDER BY` — assigned to Tamara
 
-**Description:**
+**Description:** `SELECT *` returns all columns from the `Products` table. `ORDER BY` to return the `Price` column and using `ASC` to list prices in ascending order, from lowest to highest. `DESC` can also be used to list prices in descending order, from highest to lowest.
 
 **Example:**
 
 ```sql
+SELECT * FROM Products
+ORDER BY Price ASC;
 
+or
+
+ORDER BY Price DESC;
 ```
 
 ### 8. `INNER JOIN` — assigned to Nicole
