@@ -11,7 +11,7 @@ For each clause:
 ---
 
 ### 1. `SELECT`
-   
+
 **Description:** `SELECT *` returns all columns from the provided table. You can also do `SELECT column_name_1, column_name_2` to return specific columns from the provided table.
 
 **Example:**
@@ -37,7 +37,7 @@ CREATE TABLE friends (
 
 ### 3. `INSERT INTO` — assigned to Deja
 
-**Description:** 
+**Description:**
 
 **Example:**
 
@@ -47,12 +47,15 @@ CREATE TABLE friends (
 
 ### 4. `UPDATE` — assigned to Rucha
 
-**Description:**
+**Description:** `UPDATE ` allows you to update data in one or more columns of one or more rows in a table. Courtsey : https://neon.com/postgresql/postgresql-tutorial/postgresql-update
 
 **Example:**
 
 ```sql
-
+UPDATE movies
+SET genre = 'thriller'
+WHERE movie_name = 'The Prestige'
+AND year = 2006;
 ```
 
 ### 5. `DELETE FROM` — assigned to Lajoie
@@ -105,7 +108,7 @@ CREATE TABLE friends (
 
 ```
 
-### 10. `ON CONFLICT` — assigned to _____
+### 10. `ON CONFLICT` — assigned to **\_**
 
 **Description:**
 
@@ -115,7 +118,7 @@ CREATE TABLE friends (
 
 ```
 
-### 11. `LIKE` — assigned to _____
+### 11. `LIKE` — assigned to **\_**
 
 **Description:**
 
