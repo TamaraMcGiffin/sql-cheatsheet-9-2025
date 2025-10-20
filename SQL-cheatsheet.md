@@ -58,11 +58,11 @@ CREATE TABLE friends (
 ### 5. `DELETE FROM` — assigned to Lajoie
 
 **Description**
-Removes rows from a table. Use a WHERE clause to specify which rows to delete. If you omit WHERE, all rows in the table will be deleted.
+The `DELETE FROM` removes rows from a table. It's also important to note that a `WHERE` clause can be used to specify which rows to delete. If you omit `WHERE`, all rows in the table will be deleted.
 
 **Example:**
 
--- Delete a single movie by its primary key
+-- Below deletes a single movie by its primary key
 
 ```sql
 SELECT *
