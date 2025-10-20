@@ -11,7 +11,7 @@ For each clause:
 ---
 
 ### 1. `SELECT`
-   
+
 **Description:** `SELECT *` returns all columns from the provided table. You can also do `SELECT column_name_1, column_name_2` to return specific columns from the provided table.
 
 **Example:**
@@ -37,7 +37,7 @@ CREATE TABLE friends (
 
 ### 3. `INSERT INTO` — assigned to Deja
 
-**Description:** 
+**Description:**
 
 **Example:**
 
@@ -87,12 +87,16 @@ CREATE TABLE friends (
 
 ### 8. `INNER JOIN` — assigned to Nicole
 
-**Description:**
+**Description:** `INNER JOIN` returns only rows that match on the ON condition in two tables.
+
+(The overlapping circles in the middle of the Venn diagram)
 
 **Example:**
 
 ```sql
-
+SELECT *
+FROM owners INNER JOIN pets
+ON owners.owner_id = pets.owner_id;
 ```
 
 ### 9. `LIMIT` — assigned to Xavier
@@ -105,7 +109,7 @@ CREATE TABLE friends (
 
 ```
 
-### 10. `ON CONFLICT` — assigned to _____
+### 10. `ON CONFLICT` — assigned to **\_**
 
 **Description:**
 
@@ -115,7 +119,7 @@ CREATE TABLE friends (
 
 ```
 
-### 11. `LIKE` — assigned to _____
+### 11. `LIKE` — assigned to **\_**
 
 **Description:**
 
