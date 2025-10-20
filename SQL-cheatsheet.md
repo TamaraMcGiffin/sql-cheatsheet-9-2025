@@ -11,7 +11,7 @@ For each clause:
 ---
 
 ### 1. `SELECT`
-   
+
 **Description:** `SELECT *` returns all columns from the provided table. You can also do `SELECT column_name_1, column_name_2` to return specific columns from the provided table.
 
 **Example:**
@@ -37,7 +37,7 @@ CREATE TABLE friends (
 
 ### 3. `INSERT INTO` — assigned to Deja
 
-**Description:** 
+**Description:**
 
 **Example:**
 
@@ -69,10 +69,18 @@ CREATE TABLE friends (
 
 **Description:**
 
+GROUP BY is used to organize rows that have the same values in one or more columns into groups. It’s most often used with aggregate functions like COUNT(), SUM(), AVG(), MIN(), or MAX()
+
 **Example:**
 
 ```sql
-
+SELECT
+  director,
+  COUNT(*)
+FROM
+  movies
+GROUP BY
+  director;
 ```
 
 ### 7. `ORDER BY` — assigned to Tamara
@@ -105,7 +113,7 @@ CREATE TABLE friends (
 
 ```
 
-### 10. `ON CONFLICT` — assigned to _____
+### 10. `ON CONFLICT` — assigned to **\_**
 
 **Description:**
 
@@ -115,7 +123,7 @@ CREATE TABLE friends (
 
 ```
 
-### 11. `LIKE` — assigned to _____
+### 11. `LIKE` — assigned to **\_**
 
 **Description:**
 
