@@ -100,12 +100,16 @@ WHERE movie_id = 42;
 
 ### 8. `INNER JOIN` — assigned to Nicole
 
-**Description:**
+**Description:** `INNER JOIN` returns only rows that match on the ON condition in two tables.
+
+(The overlapping circles in the middle of the Venn diagram)
 
 **Example:**
 
 ```sql
-
+SELECT *
+FROM owners INNER JOIN pets
+ON owners.owner_id = pets.owner_id;
 ```
 
 ### 9. `LIMIT` — assigned to Xavier
