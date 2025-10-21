@@ -69,7 +69,7 @@ CREATE TABLE friends (
 
 **Description:**
 
-GROUP BY is used to organize rows that have the same values in one or more columns into groups. It’s most often used with aggregate functions like COUNT(), SUM(), AVG(), MIN(), or MAX()
+`GROUP BY` is used to organize rows that have the same values in one or more columns into groups. It’s most often used with aggregate functions like COUNT(), SUM(), AVG(), MIN(), or MAX()
 
 **Example:**
 
