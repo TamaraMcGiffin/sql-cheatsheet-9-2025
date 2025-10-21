@@ -82,10 +82,18 @@ WHERE movie_id = 42;
 
 **Description:**
 
+`GROUP BY` is used to organize rows that have the same values in one or more columns into groups. It’s most often used with aggregate functions like COUNT(), SUM(), AVG(), MIN(), or MAX()
+
 **Example:**
 
 ```sql
-
+SELECT
+  director,
+  COUNT(*)
+FROM
+  movies
+GROUP BY
+  director;
 ```
 
 ### 7. `ORDER BY` — assigned to Tamara
